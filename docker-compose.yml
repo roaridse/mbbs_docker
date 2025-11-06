@@ -2,7 +2,6 @@ services:
   mbbs:
     hostname: mbbs
     image: roaridse/mbbs
-    build: .
     ports:
       - "5000:5000"
       - "6080:6080"
